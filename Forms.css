@@ -1,0 +1,77 @@
+
+#form-field{
+  margin: 15px auto;
+}
+.social_div{
+  
+  display: flex;
+  margin: 0 auto;
+}
+.social_logo{
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+  width: 50px;
+  height: 25px;
+  border: 1px solid #34e89e;
+  border-radius: 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+  outline: none;
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 0 0 10px rgb(158, 241, 125);
+}
+.SignIn_btn{
+  padding: 5px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-family: verdana, arial, helvetica;
+  background: #00b09b;  
+  background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.forget_pass{
+  cursor: pointer;
+  text-align: right;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.orSignInWith{
+  text-align: center;
+  font-weight: 550;
+  color: gray;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signIn{
+  text-align: center;
+  font-family: verdana;
+  font-size: 19px;
+  color: rgb(59, 97, 67);
+  font-weight: 450px;
+}
+/* make all clickable div to only one element clickable by specify width */
+.closeSign{
+ text-align: right; 
+ color: rgb(46, 111, 172);
+ cursor: pointer;
+ width: 10px;
+ margin-left: 260px
+}
+.closeSign:hover{
+  color: rgb(0, 174, 255);
+}
+.register{
+  text-decoration: none;
+  color: rgb(26, 112, 161);
+  
+}
